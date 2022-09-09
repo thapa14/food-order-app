@@ -1,0 +1,76 @@
+@import "../../var";
+
+body {
+  min-height: 100vh;
+  background-color: $bodyBackground !important;
+}
+.home {
+  height: 90vh;
+  background-color: red, green;
+  .btn {
+    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+}
+.home-content {
+  padding-top: 5rem;
+  width: 55rem;
+  gap: 3rem;
+
+  h1 {
+    font-weight: 400;
+    font-size: 6rem;
+  }
+  button {
+    width: 12rem;
+    background-color: $primaryColor;
+    border: 1px solid $primaryColor;
+    border-radius: 0.6rem;
+    a {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      font-size: 1.6rem;
+      font-weight: 500;
+      padding: 1rem;
+    }
+    &:hover {
+      background-color: white;
+    }
+    &:hover a {
+      color: $primaryColor;
+    }
+  }
+}
+
+// menu page
+
+.menus {
+  width: 100%;
+  height: max-content;
+  padding: 4rem 0;
+  .list {
+    max-width: 70rem;
+  }
+}
+
+.checkout-wrapper {
+  padding-top: 10rem;
+  .checkout {
+    width: 80rem;
+    margin: auto;
+    // background-color: wheat;
+    padding: 3rem;
+    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    h1 {
+      font-weight: 400;
+      font-size: 3.6rem;
+    }
+    h2 {
+      font-weight: 400;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+}
